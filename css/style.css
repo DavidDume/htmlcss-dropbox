@@ -14,7 +14,7 @@
     background-color: orange;
     margin: 80px auto 40px;
 }
-.debug .col {
+.debug .debug-col {
     height: 400px;
     background-color: blue;
 }
@@ -22,14 +22,59 @@
     height: 200px;
     background-color: blue;
 }
-.debug main {
+.debug .container {
     background-color: gray;
+    padding: 10px;
+}
+.debug .find-partner {
+    height: 300px;
+    background-color: yellowgreen;
+}
+.debug .debug-col-2 {
+    height: 150px;
+    background-color: blue;
+}
+.debug .testimonials-logo .logo {
+    border: 1px solid black;
+    background-color: red;
+    height: 200px;
+}
+.debug .testimonials .text {
+    background-color: olivedrab;
+}
+.debug .clients-text {
+    background-color: tan;
+    height: 150px;
+}
+.debug .free-trial-container {
+    height: 200px;
+    background-color: aqua;
     padding: 20px;
+}
+.debug .free-trial {
+    background-color: goldenrod;
+    height: 100px;
+}
+.debug .questions {
+    height: 300px;
+    background-color: yellowgreen;
+}
+.debug footer {
+    height: 400px;
+    background-color: black;
+}
+.debug .footer-links .links {
+    height: 300px;
+    background-color: olive;
+    width: 350px;
 }
 
 .margin-auto {
     width: 60%;
     margin: 30px auto;
+}
+.flex-wrap {
+    flex-wrap: wrap;
 }
 
 header {
@@ -39,21 +84,41 @@ header {
     width: 100%;
 }
 
+
 .hero {
     max-width: 70%;
-    
 }
 
 .columns {
     display: flex;
     justify-content: space-between;
+    gap: 10px;
 }
 
 .col {
-    width: calc(100% / 3);
-    margin: 10px;
+    width: calc(100% / 3 - 20px);
 }
 
 .full-width-col {
-    margin: 10px;
+    margin-top: 10px;
+}
+
+.testimonials {
+    display: flex;
+}
+
+.testimonials-logo {
+    display: flex;
+}
+.testimonials > * {
+    width: calc(100% / 3);
+}
+.testimonials-logo .logo {
+    width: calc(100% / 2);
+}
+
+.footer-links {
+    display: flex;
+    gap: 10px;
+    padding-top: 50px;
 }
