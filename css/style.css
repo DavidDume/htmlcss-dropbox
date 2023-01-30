@@ -3,3 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.debug header {
+    height: 50px;
+    width: 100%;
+    background-color: green;
+}
