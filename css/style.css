@@ -12,14 +12,14 @@ a {
     text-decoration: none;
 }
 
-.debug .debug-col {
-    height: 400px;
-    background-color: blue;
+span > a {
+    text-decoration: underline;
 }
-.debug .full-width-col {
-    height: 200px;
-    background-color: blue;
+
+ul {
+    list-style-type: none;
 }
+
 
 .debug .find-partner {
     height: 300px;
@@ -79,11 +79,17 @@ a {
 .flex {
     display: flex;
 }
+.justify-b {
+    justify-content: space-between;
+}
 .w-30 {
     width: 30%;
 }
 .w-70 {
     width: 70%;
+}
+.blue {
+    color: #297AFE;
 }
 
 header {
@@ -141,15 +147,57 @@ header {
 .columns {
     display: flex;
     justify-content: space-between;
-    gap: 10px;
+    margin-top: 20px;
 }
+.plans h2 {
+    margin-bottom: 20px;
+}
+.plans > span {
+    margin-right: 20px;
+}
+
 
 .col {
     width: calc(100% / 3 - 20px);
+    border: solid 1px gray;
+}
+.col-name {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    padding: 5px;
+}
+.col-info {
+    padding: 10px;
+}
+.d-block {
+    display: block;
+}
+.col-info > * {
+    margin: 20px 0;
+}
+.col-info hr {
+    width: 30%;
+}
+.col-info ul li {
+    margin: 10px 0;
+}
+.col-info .btn {
+    text-align: center;
 }
 
 .full-width-col {
     margin-top: 10px;
+    border: 1px solid black;
+}
+.col-info div {
+    width: 50%;
+}
+.align-right {
+    text-align: right;
+}
+.col-info p {
+    margin-top: 30px;
 }
 
 .testimonials {
