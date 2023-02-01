@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior:smooth;
+}
+body {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+span > a {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+.margin-auto {
+    width: 60%;
+    margin: 100px auto;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+.btn {
+    background-color: #297AFE;
+    color: white;
+    padding: 10px;
+}
+.btn:hover {
+    background-color: #6898e6;
+}
+.flex {
+    display: flex;
+}
+.justify-b {
+    justify-content: space-between;
+}
+.w-30 {
+    width: 30%;
+}
+.w-70 {
+    width: 70%;
+}
+.blue {
+    color: #297AFE;
+}
+.border {
+    border: solid 1px gray;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    z-index: 1;
+}
+header a:not(.btn):hover {
+    border-bottom: 2px solid gray;
+    padding-bottom: 15px;
+}
+.nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.nav ul li {
+    margin-right: 10px;
+}
+.nav a:not(.btn) {
+    color: grey;
+}
+
+.container {
+    background-color: #74C0FC;
+}
+.hero {
+    max-width: 70%;
+    margin: auto;
+    padding-top: 100px;
+    position: relative;
+    top: 50px;
+}
+.hero img {
+    height: 350px;
+}
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 35px;
+}
+.hero-text > * {
+    margin-bottom: 30px;
+}
+.hero-text i {
+    font-size: 30px;
+    color: black;
+}
+.hero-text a {
+    display: inline-block;
+}
+.columns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.plans h2 {
+    margin-bottom: 20px;
+}
+.plans > span {
+    margin-right: 20px;
+}
+
+
+.col {
+    width: calc(100% / 3 - 20px);
+    margin-top: 16px;
+}
+.col-name {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    padding: 5px;
+}
+.col-info {
+    padding: 10px;
+}
+.d-block {
+    display: block;
+}
+.col-info > * {
+    margin: 20px 0;
+}
+.col-info hr {
+    width: 30%;
+}
+.col-info ul li {
+    margin: 10px 0;
+}
+.col-info .btn {
+    text-align: center;
+}
+
+.full-width-col {
+    margin-top: 10px;
+    border: 1px solid black;
+}
+.col-info div {
+    width: 50%;
+}
+.align-right {
+    text-align: right;
+}
+.col-info p {
+    margin-top: 30px;
+}
+
+
+.find-partner img {
+    height: 350px;
+}
+.find-partner div {
+    padding: 30px;
+}
+.find-partner p {
+    margin: 20px 0;
+}
+.find-partner a {
+    border: 2px solid gray;
+    padding: 10px;
+    color: gray;
+    text-align: center;
+}
+
+.col-img {
+    width: 100%;
+}
+.col p {
+    margin-top: 20px;
+}
+
+.clients-text a {
+    text-decoration: underline;
+    margin-top: 40px;
+}
+
+.testimonials {
+    display: flex;
+}
+
+.testimonials-logo {
+    display: flex;
+}
+.testimonials > * {
+    width: calc(100% / 3);
+}
+.testimonials-logo .logo {
+    width: calc(100% / 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.logo img {
+    width: 100%;
+}
+
+.text {
+    background-color: #edf6f9;
+    padding: 30px;
+}
+.text div > * {
+    margin-bottom: 20px;
+}
+.text img {
+    height: 50px;
+}
+.text hr {
+    width: 40%;
+}
+.text p {
+    font-size: 12px;
+}
+
+.free-trial-container {
+    background-color: #90e0ef;
+    padding: 10px;
+}
+.free-trial {
+    align-items: center;
+}
+.free-trial a {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+}
+
+.questions h2 {
+    margin-bottom: 20px;
+}
+.questions strong {
+    margin: 20px 0;
+}
+.questions div {
+    align-items: center;
+}
+.hide {
+    display: none;
+}
+.question:hover p {
+    display: block;
+}
+
+footer {
+    background-color: black;
+}
+
+.footer-links {
+    padding: 40px 0;
+    width: 60%;
+    margin: auto;
+}
+
+.footer-links h4 {
+    color: white;
+}
+.footer-links a {
+    color: white;
+}
+
+.links ul li  {
+    margin: 10px 0;
+}
+
+.footer-links hr {
+    width: 10%;
+    margin: 40px 0;
+}
+
+.footer-links span {
+    color: white;
+}
