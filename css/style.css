@@ -63,6 +63,7 @@ header {
     align-items: center;
     padding: 10px;
     background-color: white;
+    z-index: 1;
 }
 
 .nav ul {
@@ -84,6 +85,8 @@ header {
     max-width: 70%;
     margin: auto;
     padding-top: 100px;
+    position: relative;
+    top: 50px;
 }
 .hero img {
     height: 350px;
